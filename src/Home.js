@@ -60,7 +60,7 @@ function Home() {
   return (
 
     <>
-    <h1>given {initialrate}- {interest} -{time} </h1>
+    
     <input type={"number"} value={initialrate} onChange={(e)=>handle1(e)}/>
     <input type={"number"} value={interest} onChange={(e)=>handle2(e)}/>
     <input type={"number"} value={time} onChange={(e)=>handle3(e)}/>
